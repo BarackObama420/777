@@ -1,133 +1,152 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Meu portfólio</title>
+    <title>A Intrincada Relação entre Campo e Cidade</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #5cb85c;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #5cb85c;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .aspect {
+            margin-bottom: 15px;
+        }
+        .aspect h3 {
+            margin-top: 0;
+            color: #337ab7;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
 </head>
-
 <body>
-    <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
-            srcset="">
-        <p class="lead">Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
-        <p>Minhas habilidades</p>
-        <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
-        </div>
+    <header>
+        <h1>A Simbiose Campo-Cidade: Uma Relação Essencial</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#dependencia">A Mútua Dependência</a></li>
+                <li><a href="#fluxos">Fluxos e Interações</a></li>
+                <li><a href="#impactos">Impactos e Desafios</a></li>
+                <li><a href="#futuro">O Futuro da Relação</a></li>
+            </ul>
+        </nav>
     </header>
-    <main class="container mt-5">
-        <h2>Meus projetos</h2>
-        <div class="row">
-            <!-- Projeto 1 -->
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                        <p class="card-text">Este projeto é uma página web que apresenta uma lista dos meus livros
-                            favoritos, incluindo informações sobre os autores, datas de publicação e links para compra
-                            na Amazon. A página é estilizada com CSS para uma visualização agradável e usa fontes
-                            externas do Google Fonts.
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
-          
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
-                            Artificial</h5>
-                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
-                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
-                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
-                            futuro da IA.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
-                            o projeto</button>
-                    </div>
-                </div>
-            </div>
 
-            
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
-                    <div class="card-body">
-                        <h5 class="card-title">Explorando o Universo: Uma Aventura Interativa em Astronomia com Scratch
-                        </h5>
-                        <p class="card-text">EEste projeto Scratch cria uma experiência interativa educativa sobre
-                            astronomia, permitindo aos usuários explorar informações sobre constelações, eclipses, e a
-                            forma da Terra através de cenários dinâmicos e diálogos informativos.
-                        </p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
-                            o projeto</button>
-                    </div>
-                </div>
+    <div class="container">
+        <section id="introducao" class="section">
+            <h2>Introdução</h2>
+            <div class="image-container">
+                <img src="https://via.placeholder.com/600x300/8FBC8F/FFFFFF/?Text=Campo%20e%20Cidade" alt="Imagem ilustrativa do campo e da cidade">
             </div>
-        </div>
-    </main>
+            <p>A relação entre o campo e a cidade é uma das dinâmicas mais fundamentais que moldam a sociedade humana e o espaço geográfico. Longe de serem entidades isoladas, o campo e a cidade estão intrinsecamente ligados por uma teia complexa de interdependências econômicas, sociais, culturais e ambientais. Este site explora as diversas facetas dessa relação vital.</p>
+        </section>
 
-  
-    <div class="modal" id="modal1" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>O projeto é uma página web criada com HTML e CSS, destinada a exibir uma coleção pessoal de
-                        livros favoritos. O objetivo é criar um ambiente virtual onde seja possível compartilhar
-                        seus livros preferidos, fornecendo uma descrição breve de cada um, incluindo o autor, o ano
-                        de publicação e uma opção de compra.</p>
-                    <p>A estrutura do site é baseada em HTML, que define a semântica e o layout do conteúdo,
-                        enquanto o CSS é usado para estilizar a página visualmente, incluindo cores, tipografia e a
-                        disposição dos elementos.</p>
-                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
-                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
-                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
-                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
-                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
-                        tela.</p>
-                    <p>O CSS personaliza o visual do site, usando variáveis para cores, estilizando o texto com uma
-                        fonte importada do Google Fonts e aplicando um esquema de cores suaves e botões interativos.
-                        O uso de HTML e CSS é importante pois assim é possível criar um site acessível e
-                        esteticamente agradável sem a necessidade de scripts complexos, com foco na usabilidade e na
-                        experiência da pessoa usuária. A escolha da tipografia e do esquema de cores contribui para
-                        a atmosfera acolhedora do site, incentivando a exploração da coleção de livros.</p>
-                    <img src="img/projeto-1.png" alt="Imagem representativa do projeto de uma biblioteca online">
-                </div>
-                <div class="modal-footer">
-                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
-                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
-                </div>
+        <section id="dependencia" class="section">
+            <h2>A Mútua Dependência</h2>
+            <div class="aspect">
+                <h3>O Campo Nutre a Cidade</h3>
+                <p>O campo é a principal fonte de alimentos, matérias-primas e recursos naturais essenciais para a vida e o funcionamento da cidade. A agricultura, a pecuária, a silvicultura e a extração mineral no campo sustentam as necessidades de consumo e produção urbanas.</p>
             </div>
-        </div>
+            <div class="aspect">
+                <h3>A Cidade Impulsiona o Campo</h3>
+                <p>Por outro lado, a cidade oferece ao campo mercados para seus produtos, tecnologias, serviços especializados, infraestrutura, educação e oportunidades de desenvolvimento. A demanda urbana estimula a produção rural e a inovação no setor agrícola.</p>
+            </div>
+        </section>
+
+        <section id="fluxos" class="section">
+            <h2>Fluxos e Interações</h2>
+            <div class="aspect">
+                <h3>Fluxo de Bens e Serviços</h3>
+                <p>Há um constante fluxo de produtos agrícolas e matérias-primas do campo para a cidade, enquanto bens industrializados, serviços e tecnologias fluem da cidade para o campo.</p>
+            </div>
+            <div class="aspect">
+                <h3>Fluxo de Pessoas</h3>
+                <p>A migração populacional entre o campo e a cidade tem sido uma característica histórica. Pessoas buscam oportunidades de emprego, educação e melhor qualidade de vida em ambos os espaços, alterando a demografia e a cultura de cada um.</p>
+            </div>
+            <div class="aspect">
+                <h3>Fluxo de Ideias e Cultura</h3>
+                <p>Ideias, informações, modismos e práticas culturais circulam entre o campo e a cidade, influenciando os estilos de vida, os valores e as tradições em ambos os contextos.</p>
+            </div>
+        </section>
+
+        <section id="impactos" class="section">
+            <h2>Impactos e Desafios</h2>
+            <div class="aspect">
+                <h3>Impactos Econômicos</h3>
+                <p>A relação campo-cidade influencia os preços dos alimentos, o desenvolvimento de setores industriais, a geração de empregos e a distribuição de renda em nível regional e nacional.</p>
+            </div>
+            <div class="aspect">
+                <h3>Impactos Sociais</h3>
+                <p>A urbanização, o êxodo rural e as desigualdades no acesso a serviços e oportunidades são alguns dos desafios sociais decorrentes da dinâmica campo-cidade.</p>
+            </div>
+            <div class="aspect">
+                <h3>Impactos Ambientais</h3>
+                <p>A expansão urbana, o uso intensivo da terra para a agricultura e a exploração de recursos naturais podem gerar impactos ambientais significativos, como desmatamento, poluição e perda de biodiversidade.</p>
+            </div>
+        </section>
+
+        <section id="futuro" class="section">
+            <h2>O Futuro da Relação Campo-Cidade</h2>
+            <p>O futuro da relação campo-cidade passa pela busca de um equilíbrio sustentável, que considere a produção eficiente de alimentos, a preservação ambiental, o desenvolvimento social equitativo e a valorização das identidades culturais de ambos os espaços. A integração de tecnologias, a agricultura sustentável e o planejamento territorial são elementos chave para construir um futuro mais harmonioso entre o campo e a cidade.</p>
+        </section>
     </div>
 
-    <footer class="container py-5">
-        <h2>Entre em contato</h2>
-        <div>
-            <a href="https://github.com/femascheti">GitHub</a>
-        </div>
-        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    <footer>
+        <p>&copy; 2025 Relação Campo-Cidade. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
